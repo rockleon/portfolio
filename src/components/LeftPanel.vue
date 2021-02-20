@@ -94,14 +94,18 @@ export default {
       mail.remove();
     },
     downloadCV() {
-      let link = document.createElement("a");
-      link.setAttribute("type", "hidden");
-      link.href = "/files/resume.pdf";
-      link.download = "Resume_Amey_Gorde.pdf";
-      document.body.appendChild(link);
-      link.click();
-      console.log(link.href);
-      link.remove();
+      // let link = document.createElement("a");
+      // link.setAttribute("type", "hidden");
+      // link.href = "/files/resume.pdf";
+      // link.download = "Resume_Amey_Gorde.pdf";
+      // document.body.appendChild(link);
+      // link.click();
+      // console.log(link.href);
+      // link.remove();
+      window.open(
+        "https://docs.google.com/document/d/1uJPi0qsy9xnYDtvQpw57eYi_VpXJ0x3DZbIenV1F_7s/view?usp=sharing",
+        "_blank"
+      );
     },
   },
 };
