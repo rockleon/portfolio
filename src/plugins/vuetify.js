@@ -13,7 +13,8 @@ export default new Vuetify({
       light: {
         primary: "#F44336",
         secondary: "#F0F0F6",
-        background: "#E0E0E6",
+        background: "#F0F0F6",
+        background2: "#E0E0E6",
         card1: "#FFFFFF",
         card2: "#F4F4F6",
         text: "000000",
