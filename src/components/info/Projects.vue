@@ -84,12 +84,43 @@
       <v-col cols="8" class="pl-0">
         <div class="timeline-title pt-2">
           <div class="number">3)</div>
+          Image Splash
+        </div>
+        <ul class="timeline-detail">
+          <li>A website for searching, viewing and downloading images.</li>
+          <li>The images are fetched using the Unsplash image search api.</li>
+          <li>This website is built using React.js.</li>
+        </ul>
+        <div class="timeline-detail2">
+          Website -
+          <a href="http://image-splash.surge.sh/" target="blank"
+            >http://image-splash.surge.sh/</a
+          >
+        </div>
+        <div class="timeline-detail2 mt-1">
+          Codesandbox -
+          <a
+            href="https://codesandbox.io/s/wispy-resonance-vf8c6/"
+            target="blank"
+            >https://codesandbox.io/s/wispy-resonance-vf8c6/</a
+          >
+        </div>
+      </v-col>
+      <v-col cols="4" class="image-center pr-0">
+        <img :src="require('@/assets/images/image-splash.jpg')" class="image" />
+      </v-col>
+    </v-row>
+    <v-divider></v-divider>
+    <v-row class="mx-0 my-5 text-14">
+      <v-col cols="8" class="pl-0">
+        <div class="timeline-title pt-2">
+          <div class="number">4)</div>
           Job Portal Website
         </div>
-        <div class="timeline-detail">
-          A static website for a job portal. Website is only UI without any
-          functionality.
-        </div>
+        <ul class="timeline-detail">
+          <li>A static website template for a job portal.</li>
+          <li>This website is built using Vue.js.</li>
+        </ul>
         <div class="timeline-detail2">
           Website -
           <a href="http://demo-job-portal.surge.sh/" target="blank"
@@ -105,7 +136,7 @@
     <v-row class="mx-0 my-5 text-14">
       <v-col cols="8" class="pl-0">
         <div class="timeline-title pt-2">
-          <div class="number">4)</div>
+          <div class="number">5)</div>
           Location Tracker App
         </div>
         <div class="timeline-detail">
