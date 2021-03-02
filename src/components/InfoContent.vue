@@ -50,4 +50,11 @@ export default {
 .stats-sheet {
   background-color: var(--v-card2-darken3) !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .content-sheet {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+  }
+}
 </style>

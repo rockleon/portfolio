@@ -3,7 +3,7 @@
     <v-row class="info-card-title" no-gutters>About Me</v-row>
     <v-row no-gutters><span class="info-card-underline"></span></v-row>
     <v-row class="mx-0">
-      <v-col cols="8" class="pl-0 pt-5 text-14">
+      <v-col md="8" sm="12" cols="12" class="pl-0 pt-5 text-14">
         <span
           >Hello! I am Amey, a software engineer based in Mumbai, India.</span
         >
@@ -13,15 +13,15 @@
           I am diligent, well-organized, a quick learner and a good team player.
         </p>
         <v-row class="mx-0 mt-2">
-          <v-col cols="6" class="pl-0">Location: <span class="sub-info">Mumbai, India</span></v-col>
-          <v-col cols="6">Email: <span class="sub-info">ameysgorde@gmail.com</span></v-col>
+          <v-col md="6" cols="12" class="pl-0 pt-0">Location: <span class="sub-info">Mumbai, India</span></v-col>
+          <v-col md="6" cols="12" class="pl-0 pt-0">Email: <span class="sub-info">ameysgorde@gmail.com</span></v-col>
         </v-row>
         <v-row class="mx-0">
-          <v-col cols="6" class="pl-0 pt-0">Works at: <span class="sub-info">-</span></v-col>
-          <v-col cols="6" class="pt-0 ma-0 sub-info">Open for job offers!</v-col>
+          <v-col md="6" cols="12" class="pl-0 pt-0">Works at: <span class="sub-info">-</span></v-col>
+          <v-col md="6" cols="12" class="pt-0 pl-0 ma-0 sub-info">Open for job offers!</v-col>
         </v-row>
       </v-col>
-      <v-col cols="4" class="pr-0 py-0">
+      <v-col md="4" sm="12" cols="12" class="py-0 about-image">
         <img :src="require('@/assets/images/developer1.jpg')" class="image" />
       </v-col>
     </v-row>
@@ -47,5 +47,11 @@ export default {};
 .sub-info {
   margin-left: 5px;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 1150px) {
+  .about-image {
+    padding: 0px !important;
+  }
 }
 </style>

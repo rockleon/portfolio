@@ -1,26 +1,32 @@
 <template>
   <div class="card-content">
     <v-sheet class="menu-bar primary-background">
+      <div class="nav-btn">
+        <v-icon color="white" class="mb-1" @click="toggleDrawer"
+          >mdi-menu</v-icon
+        >
+      </div>
+      <div class="mobile-name">Amey Gorde</div>
       <ul
         class="menu-ul"
         v-scroll-spy-active="{ class: 'menuActive' }"
         v-scroll-spy-link
       >
-        <v-col cols="2" align="center">
+        <div align="center" class="menu-tabs first-tab">
           <a>About</a>
-        </v-col>
-        <v-col cols="2" align="center">
+        </div>
+        <div align="center" class="menu-tabs">
           <a>Skills</a>
-        </v-col>
-        <v-col cols="2" align="center">
+        </div>
+        <div align="center" class="menu-tabs">
           <a>Experience</a>
-        </v-col>
-        <v-col cols="2" align="center">
+        </div>
+        <div align="center" class="menu-tabs">
           <a>Courses</a>
-        </v-col>
-        <v-col cols="2" align="center">
+        </div>
+        <div align="center" class="menu-tabs">
           <a>Projects</a>
-        </v-col>
+        </div>
       </ul>
     </v-sheet>
     <div class="filling"></div>
@@ -29,7 +35,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    toggleDrawer() {
+      this.$emit("toggleDrawer");
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -39,15 +51,23 @@ export default {};
 
 .menu-bar {
   padding: 10px 0px 0px;
+  display: flex;
+  flex-direction: row;
 }
 .menu-bar >>> a {
   color: white;
+}
+
+.menu-tabs {
+  width: 20%;
+  padding: 12px 12px 15px;
 }
 
 .menu-ul {
   display: flex;
   flex-direction: row;
   padding: 0px 20px;
+  width: 100%;
 }
 
 .menuActive {
@@ -72,7 +92,35 @@ export default {};
   box-shadow: 0 3px 4px 0 var(--v-primary-lighten3);
 }
 
-/* .menu-ul a {
-  width
-} */
+.nav-btn {
+  padding: 0px 20px;
+  display: none;
+  align-items: center;
+}
+
+.mobile-name {
+  display: none;
+  width: 100%;
+  font-size: 1.2em;
+  align-items: center;
+  padding: 0px 20px 10px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .nav-btn {
+    display: flex;
+  }
+  .menu-ul {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-ul {
+    display: none;
+  }
+  .mobile-name {
+    display: flex;
+  }
+}
 </style>

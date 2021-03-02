@@ -3,12 +3,12 @@
     <v-row class="info-card-title" no-gutters>Projects</v-row>
     <v-row no-gutters><span class="info-card-underline"></span></v-row>
     <v-row class="mx-0 my-5 text-14">
-      <v-col cols="8" class="pl-0">
+      <v-col md="8" cols="12" class="pl-0">
         <div class="timeline-title pt-2">
           <div class="number">1)</div>
           Bookit Webapp
         </div>
-        <ul class="timeline-detail">
+        <ul class="timeline-detail detail-ul">
           <li>Web app for booking tickets for events (like BookMyShow).</li>
           <li>
             We have created this web app using Vue js for the frontend and
@@ -39,13 +39,13 @@
           >
         </div>
       </v-col>
-      <v-col cols="4" class="image-center pr-0">
+      <v-col md="4" cols="12" class="image-center pr-0">
         <img :src="require('@/assets/images/bookit.jpg')" class="image" />
       </v-col>
     </v-row>
     <v-divider></v-divider>
     <v-row class="mx-0 my-5 text-14">
-      <v-col cols="8" class="pl-0">
+      <v-col md="8" cols="12" class="pl-0">
         <div class="timeline-title pt-2">
           <div class="number">2)</div>
           Photovoltaic Module Monitoring System
@@ -56,7 +56,7 @@
           project is developed using MongoDB, Apache Spark, Python, and PHP. The
           project can be summarised into 5 parts -
         </div>
-        <ul class="timeline-detail">
+        <ul class="timeline-detail detail-ul">
           <li>Data Retrieval from the solar cells and live monitoring.</li>
           <li>Error detection and Segregation of data as valid and invalid.</li>
           <li>Basic data analyzing tool for research purpose.</li>
@@ -75,18 +75,18 @@
           >
         </div>
       </v-col>
-      <v-col cols="4" class="image-center pr-0">
+      <v-col md="4" cols="12" class="image-center pr-0">
         <img :src="require('@/assets/images/pvmms.png')" class="image" />
       </v-col>
     </v-row>
     <v-divider></v-divider>
     <v-row class="mx-0 my-5 text-14">
-      <v-col cols="8" class="pl-0">
+      <v-col md="8" cols="12" class="pl-0">
         <div class="timeline-title pt-2">
           <div class="number">3)</div>
           Image Splash
         </div>
-        <ul class="timeline-detail">
+        <ul class="timeline-detail detail-ul">
           <li>A website for searching, viewing and downloading images.</li>
           <li>The images are fetched using the Unsplash image search api.</li>
           <li>This website is built using React.js.</li>
@@ -106,18 +106,18 @@
           >
         </div>
       </v-col>
-      <v-col cols="4" class="image-center pr-0">
+      <v-col md="4" cols="12" class="image-center pr-0">
         <img :src="require('@/assets/images/image-splash.jpg')" class="image" />
       </v-col>
     </v-row>
     <v-divider></v-divider>
     <v-row class="mx-0 my-5 text-14">
-      <v-col cols="8" class="pl-0">
+      <v-col md="8" cols="12" class="pl-0">
         <div class="timeline-title pt-2">
           <div class="number">4)</div>
           Job Portal Website
         </div>
-        <ul class="timeline-detail">
+        <ul class="timeline-detail detail-ul">
           <li>A static website template for a job portal.</li>
           <li>This website is built using Vue.js.</li>
         </ul>
@@ -128,13 +128,13 @@
           >
         </div>
       </v-col>
-      <v-col cols="4" class="image-center pr-0">
+      <v-col md="4" cols="12" class="image-center pr-0">
         <img :src="require('@/assets/images/dreamjob.jpg')" class="image" />
       </v-col>
     </v-row>
     <v-divider></v-divider>
     <v-row class="mx-0 my-5 text-14">
-      <v-col cols="8" class="pl-0">
+      <v-col md="8" cols="12" class="pl-0">
         <div class="timeline-title pt-2">
           <div class="number">5)</div>
           Location Tracker App
@@ -189,5 +189,11 @@ export default {};
 
 .number {
   width: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .detail-ul {
+    margin-left: 15px;
+  }
 }
 </style>

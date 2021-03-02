@@ -3,33 +3,35 @@
     <v-row class="info-card-title" no-gutters>Education and Experience</v-row>
     <v-row no-gutters><span class="info-card-underline"></span></v-row>
     <v-row no-gutters class="text-14">
-      <v-timeline>
+      <v-timeline dense align-top>
         <v-timeline-item right class="timeline-item">
-          <span slot="opposite">July 2019 - Present</span>
           <v-row class="mx-0" align="center">
             <img :src="require('@/assets/images/zaya.png')" class="firm-logo" />
             <span class="timeline-title pt-2 ml-2">Zaya Learning Labs</span>
           </v-row>
+          <v-row class="mx-0 mt-3">
+            <span class="timeline-detail">July 2019 - Present</span>
+          </v-row>
           <v-row class="mx-0 mt-5"
             ><span class="timeline-detail"
-              >Worked as a Full Stack Engineer, developed web applications
-              and mobile applications using Vue, React, React Native and
+              >Worked as a Full Stack Engineer, developed web applications and
+              mobile applications using Vue, React, React Native and
               Django.</span
             ></v-row
           >
         </v-timeline-item>
         <v-timeline-item right class="timeline-itema">
-          <span slot="opposite">August 2015 - May 2019</span>
           <v-row class="mx-0" align="center">
             <img :src="require('@/assets/images/dbit.png')" class="firm-logo" />
             <span class="timeline-title pt-2 ml-2"
               >Don Bosco Institute of Technology, Mumbai</span
             >
           </v-row>
+          <v-row class="mx-0 mt-3">
+            <span class="timeline-detail">August 2015 - May 2019</span>
+          </v-row>
           <v-row class="mx-0 mt-5"
-            ><span class="timeline-detail"
-              >BE in Computer Science.</span
-            ></v-row
+            ><span class="timeline-detail">BE in Computer Science.</span></v-row
           >
         </v-timeline-item>
       </v-timeline>
@@ -63,11 +65,15 @@ export default {};
 
 .timeline-detail {
   margin-left: 58px;
-  width: 150%;
 }
 
 .v-timeline {
-  left: -250px;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .timeline-detail {
+    margin-left: 8px;
+  }
 }
 </style>
