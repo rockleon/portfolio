@@ -131,7 +131,6 @@ export default {
 
 .panel-content {
   padding: 20px 30px;
-  overflow: auto;
 }
 
 .progress-div {
