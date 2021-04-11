@@ -22,7 +22,7 @@
         </v-row>
       </v-col>
       <v-col md="4" sm="12" cols="12" class="py-0 about-image">
-        <img :src="require('@/assets/images/developer1.jpg')" class="image" />
+        <img :src="require('@/assets/images/id.jpg')" class="image" />
       </v-col>
     </v-row>
   </div>
