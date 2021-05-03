@@ -1,6 +1,12 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" absolute temporary width="300px" class="drawer">
+    <v-navigation-drawer
+      v-model="drawer"
+      absolute
+      temporary
+      width="300px"
+      class="drawer"
+    >
       <left-panel />
     </v-navigation-drawer>
     <div class="frame-wrap" style="top: 0px"></div>
@@ -23,6 +29,7 @@
 import InfoContent from "./components/InfoContent.vue";
 import LeftPanel from "./components/LeftPanel.vue";
 import MenuBar from "./components/MenuBar.vue";
+import siteVisits from "@rockleon/site-visits";
 
 export default {
   name: "App",
@@ -35,6 +42,10 @@ export default {
     return {
       drawer: false,
     };
+  },
+  mounted() {
+    const key = "cf11d493-29d6-4fad-9f8e-4971fa19a62c";
+    siteVisits(key, sessionStorage);
   },
   methods: {
     toggleDrawer() {
