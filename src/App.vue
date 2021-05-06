@@ -29,7 +29,7 @@
 import InfoContent from "./components/InfoContent.vue";
 import LeftPanel from "./components/LeftPanel.vue";
 import MenuBar from "./components/MenuBar.vue";
-import siteVisits from "@rockleon/site-visits";
+import updateSiteVisits from "@rockleon/site-visits";
 
 export default {
   name: "App",
@@ -45,7 +45,7 @@ export default {
   },
   mounted() {
     const key = "cf11d493-29d6-4fad-9f8e-4971fa19a62c";
-    siteVisits(key, sessionStorage);
+    updateSiteVisits(key);
   },
   methods: {
     toggleDrawer() {
