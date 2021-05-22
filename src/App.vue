@@ -44,7 +44,7 @@ export default {
     };
   },
   mounted() {
-    const key = "cf11d493-29d6-4fad-9f8e-4971fa19a62c";
+    const key = "87538204-2e5a-4ee9-bb5b-8b15af920da1";
     updateSiteVisits(key);
   },
   methods: {

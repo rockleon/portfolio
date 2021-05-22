@@ -20,6 +20,7 @@
         <a
           href="https://drive.google.com/file/d/1LziDTmoIkAVq9Te0wLB6WzRYD9kt4sYb/view?usp=sharing"
           target="blank"
+          rel="noopener noreferrer"
           >click here</a
         >
       </span>
@@ -40,6 +41,7 @@
         <a
           href="https://drive.google.com/file/d/1LziDTmoIkAVq9Te0wLB6WzRYD9kt4sYb/view?usp=sharing"
           target="blank"
+          rel="noopener noreferrer"
           >click here</a
         >
       </span>

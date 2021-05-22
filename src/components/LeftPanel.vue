@@ -84,7 +84,7 @@ export default {
   },
   methods: {
     newTab(url) {
-      window.open(url, "_blank");
+      window.open(url, "_blank", ["noopener", "noreferrer"]);
     },
     openMail() {
       var mail = document.createElement("a");
@@ -96,7 +96,8 @@ export default {
     downloadCV() {
       window.open(
         "https://docs.google.com/document/d/1uJPi0qsy9xnYDtvQpw57eYi_VpXJ0x3DZbIenV1F_7s/view?usp=sharing",
-        "_blank"
+        "_blank",
+        ["noopener", "noreferrer"]
       );
     },
   },

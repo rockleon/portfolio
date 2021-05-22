@@ -16,6 +16,14 @@
         <img :src="require('@/assets/images/react-native.png')" class="skill-image">
         <span class="skill-info">React Native</span>
       </div>
+      <div class="skill-box text-14">
+        <img :src="require('@/assets/images/nodejs.png')" class="skill-image">
+        <span class="skill-info">Node JS</span>
+      </div>
+      <div class="skill-box text-14">
+        <img :src="require('@/assets/images/graphql.png')" class="skill-image">
+        <span class="skill-info">GraphQL</span>
+      </div>
     </v-row>
     <v-row class="mx-0 mt-10 skill-title">Backend -</v-row>
     <v-row class="mx-0">
@@ -26,6 +34,10 @@
       <div class="skill-box text-14">
         <img :src="require('@/assets/images/django-rest.png')" class="skill-image">
         <span class="skill-info">Django REST framework</span>
+      </div>
+      <div class="skill-box text-14">
+        <img :src="require('@/assets/images/laravel.png')" class="skill-image">
+        <span class="skill-info">Laravel</span>
       </div>
     </v-row>
     <v-row class="mx-0 mt-10 skill-title">Database -</v-row>
