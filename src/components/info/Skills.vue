@@ -39,6 +39,10 @@
         <img :src="require('@/assets/images/laravel.png')" class="skill-image">
         <span class="skill-info">Laravel</span>
       </div>
+      <div class="skill-box text-14">
+        <img :src="require('@/assets/images/featherjs.jpeg')" class="skill-image">
+        <span class="skill-info">Feather JS</span>
+      </div>
     </v-row>
     <v-row class="mx-0 mt-10 skill-title">Database -</v-row>
     <v-row class="mx-0 mb-2">
