@@ -10,7 +10,7 @@
             <span class="timeline-title pt-2 ml-2">Part time and Freelance work</span>
           </v-row>
           <v-row class="mx-0 mt-3">
-            <span class="timeline-detail">November 2019 - Present</span>
+            <span class="timeline-detail">November 2020 - Present</span>
           </v-row>
           <v-row class="mx-0 mt-5"
             ><span class="timeline-detail"
@@ -24,7 +24,7 @@
             <span class="timeline-title pt-2 ml-2">Zaya Learning Labs</span>
           </v-row>
           <v-row class="mx-0 mt-3">
-            <span class="timeline-detail">July 2019 - October 2019</span>
+            <span class="timeline-detail">July 2019 - October 2020</span>
           </v-row>
           <v-row class="mx-0 mt-5"
             ><span class="timeline-detail"
