@@ -49,12 +49,31 @@ const pvmmsImage = require("@/assets/images/pvmms.png");
 const splashImage = require("@/assets/images/image-splash.jpg");
 const jobImage = require("@/assets/images/dreamjob.jpg");
 const visitsImage = require("@/assets/images/site-visits.jpg");
+const camoImage = require("@/assets/images/camo.jpg");
 
 export default {
   name: "Projects",
   data() {
     return {
       projects: [
+        {
+          title: "Camouflage With Škoda",
+          description: `Camouflage with Škoda is a camouflage design contest organized by ŠKODA Inida, where participants can submit their camouflage designs and ideas to apply on new cars.`,
+          points: [
+            `Design, creation and deployment of the website.`,
+            `Registration form for the participants to fill details and upload submissions.`,
+            `API's and Database to save participant's information, and Dropbox for storing uploaded jpeg submissions.`,
+            `Admin panel to view submitted information and with functionalities to search, filter, and shortlist canditates, and download data in csv format.`,
+            `The website is built using Nuxt.js(vue), Django(REST) and Dropbox.`,
+          ],
+          links: [
+            {
+              title: "Website",
+              url: "https://www.camowithskoda.com/",
+            },
+          ],
+          image: camoImage,
+        },
         {
           title: "Site-Visits",
           description: `Service to keep count of visits made to your website. View count of visits for all your websites at one place.`,

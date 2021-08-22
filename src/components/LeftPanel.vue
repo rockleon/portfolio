@@ -57,15 +57,15 @@ export default {
       languages: [
         {
           name: "Html/Css",
-          progress: "85",
+          progress: "90",
         },
         {
           name: "Javascript",
-          progress: "85",
+          progress: "90",
         },
         {
           name: "Python",
-          progress: "75",
+          progress: "80",
         },
         {
           name: "Sql",

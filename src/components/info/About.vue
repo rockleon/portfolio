@@ -8,7 +8,7 @@
           >Hello! I am Amey, a software engineer based in Mumbai, India.</span
         >
         <p>
-          I have 1.4 years of experience as a fullstack developer.<br />
+          I have 2 years of experience as a fullstack developer.<br />
           I am passionate about implementing things and solving problems.<br />
           I am diligent, well-organized, a quick learner and a good team player.
         </p>
