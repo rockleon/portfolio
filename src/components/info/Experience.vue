@@ -6,11 +6,25 @@
       <v-timeline dense align-top>
         <v-timeline-item right class="timeline-item">
           <v-row class="mx-0" align="center">
+            <img :src="require('@/assets/images/nit-logo.png')" class="firm-logo" />
+            <span class="timeline-title pt-2 ml-2"
+              >National Institute of Technology, Trichy</span
+            >
+          </v-row>
+          <v-row class="mx-0 mt-3">
+            <span class="timeline-detail">September 2020 - Present</span>
+          </v-row>
+          <v-row class="mx-0 mt-5"
+            ><span class="timeline-detail">MTech in Computer Science and Engineering.</span></v-row
+          >
+        </v-timeline-item>
+        <v-timeline-item right class="timeline-item">
+          <v-row class="mx-0" align="center">
             <img :src="require('@/assets/images/freelance.jpg')" class="firm-logo" />
             <span class="timeline-title pt-2 ml-2">Part time and Freelance work</span>
           </v-row>
           <v-row class="mx-0 mt-3">
-            <span class="timeline-detail">November 2020 - Present</span>
+            <span class="timeline-detail">November 2020 - September 2020</span>
           </v-row>
           <v-row class="mx-0 mt-5"
             ><span class="timeline-detail"
@@ -69,7 +83,7 @@ export default {};
 }
 
 .timeline-item {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .timeline-title {
