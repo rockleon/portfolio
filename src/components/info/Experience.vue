@@ -12,7 +12,7 @@
             >
           </v-row>
           <v-row class="mx-0 mt-3">
-            <span class="timeline-detail">September 2020 - Present</span>
+            <span class="timeline-detail">September 2021 - Present</span>
           </v-row>
           <v-row class="mx-0 mt-5"
             ><span class="timeline-detail">MTech in Computer Science and Engineering.</span></v-row
@@ -24,7 +24,7 @@
             <span class="timeline-title pt-2 ml-2">Part time and Freelance work</span>
           </v-row>
           <v-row class="mx-0 mt-3">
-            <span class="timeline-detail">November 2020 - September 2020</span>
+            <span class="timeline-detail">November 2020 - September 2021</span>
           </v-row>
           <v-row class="mx-0 mt-5"
             ><span class="timeline-detail"
