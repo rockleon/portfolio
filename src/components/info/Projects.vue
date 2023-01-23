@@ -50,12 +50,45 @@ const splashImage = require("@/assets/images/image-splash.jpg");
 const jobImage = require("@/assets/images/dreamjob.jpg");
 const visitsImage = require("@/assets/images/site-visits.jpg");
 const camoImage = require("@/assets/images/camo.jpg");
+const cloudImage = require("@/assets/images/cloud-framework.png");
 
 export default {
   name: "Projects",
   data() {
     return {
       projects: [
+        {
+          title: "Photovoltaic Module Monitoring System",
+          description: `This project is developed as an aide for researching solar energy and
+          solar cells situated in the Electrical Department of IIT Bombay. The
+          project is developed using MongoDB, Apache Spark, Python, and PHP. The
+          project can be summarised into 5 parts -`,
+          points: [
+            `Data Retrieval from the solar cells and live monitoring.`,
+            `Error detection and Segregation of data as valid and invalid.`,
+            `Basic data analyzing tool for research purpose.`,
+            `Alerts/Notifications if data is incorrect or exceeds the generalized parameters.`,
+            `Maintain a log record about any changes made to different modules.`,
+          ],
+          links: [
+            {
+              title: "Video",
+              url: "https://youtu.be/J0BGa0tqPOU/",
+            },
+          ],
+          image: pvmmsImage,
+        },
+        {
+          title: "Blockchain-based Secure Cloud Storage Framework",
+          description: null,
+          points: [
+            `In this project, a security framework was implemented for accessing encrypted data stored in the cloud.`,
+            `User authorization, and distribution of secret key and decipher text was handled using blockchain.`,
+            `Security was ensured as only the owner can make changes in the blockchain, and all transactions made are transparent.`,
+          ],
+          links: [],
+          image: cloudImage,
+        },
         {
           title: "Camouflage With Škoda",
           description: `Camouflage with Škoda is a camouflage design contest organized by ŠKODA Inida, where participants can submit their camouflage designs and ideas to apply on new cars.`,
@@ -116,27 +149,6 @@ export default {
             },
           ],
           image: bookitImage,
-        },
-        {
-          title: "Photovoltaic Module Monitoring System",
-          description: `This project is developed as an aide for researching solar energy and
-          solar cells situated in the Electrical Department of IIT Bombay. The
-          project is developed using MongoDB, Apache Spark, Python, and PHP. The
-          project can be summarised into 5 parts -`,
-          points: [
-            `Data Retrieval from the solar cells and live monitoring.`,
-            `Error detection and Segregation of data as valid and invalid.`,
-            `Basic data analyzing tool for research purpose.`,
-            `Alerts/Notifications if data is incorrect or exceeds the generalized parameters.`,
-            `Maintain a log record about any changes made to different modules.`,
-          ],
-          links: [
-            {
-              title: "Video",
-              url: "https://youtu.be/J0BGa0tqPOU/",
-            },
-          ],
-          image: pvmmsImage,
         },
         {
           title: "Image Splash",

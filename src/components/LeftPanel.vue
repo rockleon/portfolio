@@ -56,12 +56,16 @@ export default {
     return {
       languages: [
         {
-          name: "Html/Css",
+          name: "C/C++",
           progress: "90",
         },
+        // {
+        //   name: "Html/Css",
+        //   progress: "80",
+        // },
         {
           name: "Javascript",
-          progress: "90",
+          progress: "80",
         },
         {
           name: "Python",
@@ -70,10 +74,6 @@ export default {
         {
           name: "Sql",
           progress: "70",
-        },
-        {
-          name: "C/C++",
-          progress: "60",
         },
         {
           name: "Php",

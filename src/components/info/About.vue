@@ -18,7 +18,7 @@
         </v-row>
         <v-row class="mx-0">
           <v-col md="6" cols="12" class="pl-0 pt-0">Studies at: <span class="sub-info">NIT Trichy</span></v-col>
-          <v-col md="6" cols="12" class="pt-0 pl-0 ma-0 sub-info">Open for summer internships!</v-col>
+          <v-col md="6" cols="12" class="pt-0 pl-0 ma-0 sub-info">Open for job opportunities!</v-col>
         </v-row>
       </v-col>
       <v-col md="4" sm="12" cols="12" class="py-0 about-image">
